@@ -1,5 +1,4 @@
-from students_GWA_functions import RandomStudentGenerator
-import os
+import random
 
 with (open("./students_GWA.txt","w")) as studs_GWA:
     gwa_scores=["1.0","1.5","2.0","2.5","3.0","3.5","4.0"]

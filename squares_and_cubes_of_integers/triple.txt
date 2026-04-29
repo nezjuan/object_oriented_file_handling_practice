@@ -1,22 +1,22 @@
 === CUBED INTEGERS ===
-1728
-551368
-238328
-117649
-474552
-1000000
-3375
-884736
-64
-226981
-729000
-1000
-592704
-21952
-250047
-4913
-287496
-373248
-681472
-729000
-=== End ===
+Base: 30, Cube: 27000
+Base: 94, Cube: 830584
+Base: 27, Cube: 19683
+Base: 94, Cube: 830584
+Base: 36, Cube: 46656
+Base: 53, Cube: 148877
+Base: 84, Cube: 592704
+Base: 8, Cube: 512
+Base: 42, Cube: 74088
+Base: 50, Cube: 125000
+Base: 29, Cube: 24389
+Base: 82, Cube: 551368
+Base: 25, Cube: 15625
+Base: 23, Cube: 12167
+Base: 48, Cube: 110592
+Base: 24, Cube: 13824
+Base: 13, Cube: 2197
+Base: 61, Cube: 226981
+Base: 10, Cube: 1000
+Base: 33, Cube: 35937
+========= End ========

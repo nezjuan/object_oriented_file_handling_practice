@@ -1,22 +1,22 @@
 === SQUARED INTEGERS ===
-144
-6724
-3844
-2401
-6084
-10000
-225
-9216
-16
-3721
-8100
-100
-7056
-784
-3969
-289
-4356
-5184
-7744
-8100
-=== End ===
+Base: 30, Square: 900
+Base: 94, Square: 8836
+Base: 27, Square: 729
+Base: 94, Square: 8836
+Base: 36, Square: 1296
+Base: 53, Square: 2809
+Base: 84, Square: 7056
+Base: 8, Square: 64
+Base: 42, Square: 1764
+Base: 50, Square: 2500
+Base: 29, Square: 841
+Base: 82, Square: 6724
+Base: 25, Square: 625
+Base: 23, Square: 529
+Base: 48, Square: 2304
+Base: 24, Square: 576
+Base: 13, Square: 169
+Base: 61, Square: 3721
+Base: 10, Square: 100
+Base: 33, Square: 1089
+========= End ========

@@ -3,20 +3,23 @@ from squares_and_cubes_functions import IntegerFileGenerator, SquaredTxtFile, Cu
 
 current_dir = os.path.dirname(__file__)
 
-# generate integers
 integer_txt_file = IntegerFileGenerator()
 integer_txt_file.integer_generator()
 
-# read integers safely
 numbers_file_path = os.path.join(current_dir, "integers.txt")
 with open(numbers_file_path, "r") as nums_infile:
-    numbers_list = [int(line.strip()) for line in nums_infile if line.strip().isdigit()]
+    numbers_list = []
+    for line in nums_infile:
+        try:
+            numbers_list.append(int(line.strip()))
+        except ValueError:
+            continue
 
-# create squared file
+print("numbers_list:", numbers_list)
+
 squared_txt_file = SquaredTxtFile()
 squared_txt_file.squared_txt_file(numbers_list)
 
-# create cubed file
 cubed_txt_file = CubedTxtFile()
 cubed_txt_file.cubed_txt_file(numbers_list)
 
