@@ -1,6 +1,3 @@
-import os
-
-base_dir = os.path.dirname(__file__)
 with(open("./my_life.txt","a")) as diary_entry:
     while True:
         text_line=input("Text to Input: ")
