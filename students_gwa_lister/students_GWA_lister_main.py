@@ -17,4 +17,6 @@ with open(os.path.join(base_dir, "students_GWA.txt"), "r") as name_gwa:
             top_stud = name.strip()
 
 with open(os.path.join(base_dir, "honored_student.txt"), "w") as honored_one:
-    honored_one.write(f"The Honored One: {top_stud}\nGeneral Weighted Average: {top_gwa}")
+    header = ">>>> HONORED STUDENT OF THE SEMESTER <<<<\n"
+    footer = ">>>>>><<<<<<>>>>>><<<<<<>>>>>><<<<<<>>>>>>\n"
+    honored_one.write(f"{header}The Honored One: {top_stud}\nGeneral Weighted Average: {top_gwa}\n{footer}")

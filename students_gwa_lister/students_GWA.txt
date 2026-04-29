@@ -1,20 +1,20 @@
-Jarno Lightfeather - GWA: 1.5
-Fiora Laurent - GWA: 2.0
-Garen Crownguard - GWA: 1.0
-Khada Jhin - GWA: 2.5
-Sarah Fortune - GWA: 2.0
-Renata Glasc - GWA: 3.0
-Mel Medarda - GWA: 3.0
-Jarvan Lightshield - GWA: 1.5
-Irelia Lito - GWA: 2.0
-Katarina Du Couteau - GWA: 4.0
-Caitlyn Kiramman - GWA: 1.5
-Cecil B. Heimerdinger - GWA: 2.5
-Luxanna Crownguard - GWA: 2.5
-Ambessa Medarda - GWA: 2.5
-Jayce Tallis - GWA: 4.0
-Tobias Foxtrot - GWA: 3.0
-Jericho Swain - GWA: 3.5
-Annie Hastur - GWA: 1.0
-Ambessa Medarda - GWA: 4.0
-Cassiopeia Du Couteau - GWA: 4.0
+Caitlyn Kiramman - GWA: 1.0
+Garen Crownguard - GWA: 3.0
+Cecil B. Heimerdinger - GWA: 3.0
+Jericho Swain - GWA: 1.0
+Sarah Fortune - GWA: 2.5
+Fiora Laurent - GWA: 3.0
+Tobias Foxtrot - GWA: 2.0
+Cassiopeia Du Couteau - GWA: 3.0
+Jarno Lightfeather - GWA: 1.0
+Annie Hastur - GWA: 4.0
+Mel Medarda - GWA: 2.0
+Jarvan Lightshield - GWA: 2.0
+Khada Jhin - GWA: 2.0
+Luxanna Crownguard - GWA: 3.5
+Ambessa Medarda - GWA: 1.5
+Irelia Lito - GWA: 2.5
+Katarina Du Couteau - GWA: 2.0
+Renata Glasc - GWA: 2.5
+Jayce Tallis - GWA: 1.0
+Ambessa Medarda - GWA: 1.0
