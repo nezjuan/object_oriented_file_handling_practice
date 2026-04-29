@@ -12,7 +12,7 @@ with open(os.path.join(base_dir, "my_life.txt"), "a") as diary_entry:
         print(design.entry_number(entry_number))
 
         text_line = input("Text to Input: ")
-        diary_entry.write(f"{text_line}\n")
+        diary_entry.write(f">>{text_line}\n")
 
         choice = input("Are There More(Y/N)?: ").upper()
         if choice != "Y":
