@@ -15,6 +15,6 @@ even_odd_extractor = EvenOddExtractor()
 even_odd_extractor.even_extractor(numbers_list)
 even_odd_extractor.odd_extractor(numbers_list)
 
-print(f"{'='*80}\n"
+print(f"{'='*60}\n"
       f" [FINISHED OBJECTIVE]: even.txt and odd.txt created/extracted from numbers.txt\n"
-      f"{'='*80}\n")
+      f"{'='*60}\n")
