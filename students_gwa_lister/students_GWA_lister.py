@@ -8,8 +8,10 @@ with (open("./students_GWA.txt","w")) as studs_GWA:
         "Jarvan Lightshield", "Khada Jhin", "Katarina Du Couteau",
         "Caitlyn Kirraman", "Jayce Talis", "Sarah Fortune","Tobias Foxtrot",
         "Mel Medarda", "Renata Glasc", "Fiora Laurent","Ambessa Medarda"]
-    for line in range(20):
-        studs_GWA.write(f"{random.choice(studs_name)}- GWA: {random.choice(gwa_scores)}\n")
+    random.shuffle(studs_name)
+    for name in studs_name:
+        gwa = random.choice(gwa_scores)
+        studs_GWA.write(f"{name} - GWA: {gwa}\n")
 
 top_gwa=float("inf")
 top_stud=None
