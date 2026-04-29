@@ -1,0 +1,16 @@
+=== My Life Diary ===
+
+>>Entry: 1
+>hello
+>>Entry: 2
+>i am Martinez
+>>Entry: 3
+>im studying computer engineer
+Total Entries: 3
+>>Entry: 4
+>hello again
+>>Entry: 5
+>im back with more entries
+>>Entry: 6
+>i need sleep
+Total Entries: 6
