@@ -7,9 +7,16 @@ with (open("./numbers.txt","w")) as numbers:
 with (open("./numbers.txt","r")) as nums_infile:
     numbers_list = [int(line.strip()) for line in nums_infile]
 
+with (open("./even.txt","w")) as even_numbers:
+    for nums in numbers_list:
+        if nums % 2 == 0:
+            even_numbers.write(str(nums) + "\n")
 
-with (open("./even.txt")) as even_numbers:
-    for line in even_numbers:
-        data = even_numbers.readlines(20)
-        if data % 2 == 0:
-            
+with (open("./odd.txt","w")) as odd_numbers:
+    for nums in numbers_list:
+        if nums % 2 != 0:
+            odd_numbers.write(str(nums) + "\n")
+
+print("=============================================================================\n"
+      "[FINISHED OBJECTIVE]: even.txt and odd.txt created/extracted from numbers.txt\n"
+      "=============================================================================\n")
