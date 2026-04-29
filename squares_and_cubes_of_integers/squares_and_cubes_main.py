@@ -1,11 +1,10 @@
-import random
+from squares_and_cubes_functions import IntegerFileGenerator
+import os
 
-with (open("./integers.txt","w")) as numbers:    
-    for line in range(20):
-        numbers.write(f"{random.randint(1,100)}\n")
+current_dir = os.path.dirname(__file__)
 
-with (open("./numbers.txt","r")) as nums_infile:
-    numbers_list = [int(line.strip()) for line in nums_infile]
+integer_txt_file = IntegerFileGenerator()
+integer_txt_file.integer_generator()
 
 with (open("./double.txt","w")) as squares:
     for nums in numbers_list:

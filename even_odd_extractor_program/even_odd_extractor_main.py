@@ -9,7 +9,8 @@ num_txt_file.number_generator()
 numbers_file_path = os.path.join(current_dir, "numbers.txt")
 
 with open(numbers_file_path, "r") as nums_infile:
-    numbers_list = [int(line.strip()) for line in nums_infile]
+    numbers_list = [int(line.strip()) for line in nums_infile
+                    if line.strip().isdigit()]
 
 even_odd_extractor = EvenOddExtractor()
 even_odd_extractor.even_extractor(numbers_list)
