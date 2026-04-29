@@ -1,27 +1,20 @@
-import random
+from students_GWA_lister_function import RandomStudentGenerator
+import os
 
-with (open("./students_GWA.txt","w")) as studs_GWA:
-    gwa_scores=["1.0","1.5","2.0","2.5","3.0","3.5","4.0"]
-    studs_name=["Garen Crownguard", "Luxanna Crownguard", "Jericho Swain",
-        "Jarro Lightfeather", "Ambessa Medarda", "Annie Hastur",
-        "Cassiopeia Du Couteau", "Cecil B. Heimerdinger", "Irelia Lito",
-        "Jarvan Lightshield", "Khada Jhin", "Katarina Du Couteau",
-        "Caitlyn Kirraman", "Jayce Talis", "Sarah Fortune","Tobias Foxtrot",
-        "Mel Medarda", "Renata Glasc", "Fiora Laurent","Ambessa Medarda"]
-    random.shuffle(studs_name)
-    for name in studs_name:
-        gwa = random.choice(gwa_scores)
-        studs_GWA.write(f"{name} - GWA: {gwa}\n")
+base_dir = os.path.dirname(__file__)   # always the main script’s folder
+generator = RandomStudentGenerator(base_dir)
+generator.student_gwa_txt()
 
-top_gwa=float("inf")
-top_stud=None
-with (open("./students_GWA.txt",'r')) as name_gwa:
+top_gwa = float("inf")
+top_stud = None
+
+with open(os.path.join(base_dir, "students_GWA.txt"), "r") as name_gwa:
     for line in name_gwa:
-        name, gwa = line.strip().split('-')
-        gwa = float(gwa.replace("GWA:","").strip())
+        name, gwa = line.strip().split(" - ")
+        gwa = float(gwa.replace("GWA:", "").strip())
         if gwa < top_gwa:
             top_gwa = gwa
-            top_stud = name
+            top_stud = name.strip()
 
-with (open("./honored_student.txt","w")) as honored_one:
+with open(os.path.join(base_dir, "honored_student.txt"), "w") as honored_one:
     honored_one.write(f"The Honored One: {top_stud}\nGeneral Weighted Average: {top_gwa}")
